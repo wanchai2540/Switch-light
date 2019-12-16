@@ -16,16 +16,16 @@ public class Location extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.room);
+        setContentView(R.layout.location);
 
-//        bedroomBututon = findViewById(R.id.btn_bed);
-//        bedroomBututon.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Location.this,Light.class);
-//                startActivity(intent);
-//            }
-//        });
+        bedroomBututon = findViewById(R.id.btn_bed);
+        bedroomBututon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Location.this,Light.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

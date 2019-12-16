@@ -11,6 +11,11 @@
     android:gravity="center"
     android:padding="10dp">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="111dp"
+        android:layout_height="159dp"
+        android:layout_margin="20dp" />
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchbutton"
         android:layout_width="wrap_content"
@@ -20,17 +25,12 @@
         android:text="Power     "
         android:textOff="OFF"
         android:textOn="ON"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:thumb="@drawable/sw_thumb"
         app:track="@drawable/sw_track"
         app:showText="true"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/imageView"
-        android:layout_margin="20dp"
-        />
+
 
 </LinearLayout>
 
